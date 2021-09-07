@@ -1,0 +1,76 @@
+HECTARE A 20 MILLIONS 4 HECTARES 80 TERRAINS DE 300 METRE CARRE 
+IL FAUT MINIMUM 800000 .il y a en qui ont cotise 1000000
+A L ENTRAIN DE POPENGUINE SOUS L AUTOROUTE A PEAGE. 30 MILLIONS AU METRE CARRE.GRANDE SOEUR DE MADAME NTAP. 77 150 68 57.
+
+mail tenezis: moustapha.diagne@tenezis.pro cQ2@QX8!8F
+192.168.1.5:3000 grafana interne admin tenezis
+http://194.37.80.245:3000/login grafana ics
+tiktok moustaphadiagne2021
+78f52ba3e819ab564664dd9b7a60c7e6ff5d796fb4c03d297c07767cc0ac
+github moustaphadiagne Tenezis2021@
+rtu tenezis 192.168.1.1 admin Depasser@123 mdpwifi 1234567890
+funbox KH7dSUAT9fKb4HTjpY   192.168.1.1  useradmin admin
+crm dollibar
+telegestion.tenezis.pro:8082 pour le gps
+
+snapchat moustapha_500 internazionale
+
+rms teltonika moustaphadiagne45@gmail.com  Tenezis2021@
+moip moustaphadiagne45@gmail Tenezis2021 moustaphadiagne
+rtu admin Depasser@123
+rtu admin Tenezis2021 mdpwifi 1234567890
+rtu supervision ics admin Admin2021
+IBM moustaphadiagne45@gmail.com Tenezis2021
+realvnc moustaphadiagne45@gmail.com   ETMYD2021  mdp special 09082021  mdpwindows dell2021
+Facebook moustaphadiagne500@hotmail.com   Tenezis2021
+SHINOBI contact@tenezis.pro Tenezis2021
+INFLUX DB database test user admin password Tenezis2021
+
+Serveur FTP : ftp.tenezis.pro
+Nom d'utilisateur : tenez1143434
+Mot de passe : aD9k39r2R4
+techtonika:    admin Tenezis2021
+
+192.168.1.88  rtsp://@192.168.1.88:554/ch1/main/av_stream
+rtsp://admin:admin@192.168.1.100:554/ch1/main/av_stream 192.168.1.100
+python3 TFLite_detection_stream.py --modeldir=Sample_TFLite_model --streamurl="rtsp://admin:admin@192.168.1.100:554/ch1/main/av_stream"
+
+ivms diagne Internazionale16091993
+http://admin:admin@192.168.1.88/snapshot.jpg
+
+L'étape 1 est gratuite. Préinscription.
+L'étape 2 est payante. Enregistrement.
+L'étape 3. Consultation initiale et conseils du ou de la consultante en immigration CRICs
+776866024
+
+apt purge zoneminder  #only if zm was installed before this
+sudo apt autoremove
+
+sudo apt -y update
+sudo apt -y upgrade
+sudo apt -y dist-upgrade
+ 
+apt install zoneminder
+
+rm /etc/mysql/my.cnf
+cp /etc/mysql/mariadb.conf.d/50-server.cnf /etc/mysql/my.cnf
+service mariadb restart
+
+mariadb -uroot < /usr/share/zoneminder/db/zm_create.sql
+maiadb -uroot -e "grant all on zm.* to 'zmuser'@localhost identified by 'zmpass';"
+
+service mariadb restart
+
+chmod 740 /etc/zm/zm.conf
+chown root:www-data /etc/zm/zm.conf
+adduser www-data video
+a2enmod cgi
+a2enconf zoneminder
+a2enmod rewrite
+chown -R www-data:www-data /usr/share/zoneminder/
+chown -R www-data:www-data /etc/zm
+
+systemctl enable zoneminder
+service zoneminder start
+
+reboot 
