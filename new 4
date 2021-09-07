@@ -1,0 +1,43 @@
+sudo su
+bash <(curl -s https://gitlab.com/Shinobi-Systems/Shinobi-Installer/raw/master/shinobi-install.sh)
+apt update
+apt dist-upgrade
+apt autoremove
+
+apt install patch ntp postfix postfix-mysql postfix-doc mariadb-client mariadb-
+server openssl getmail4 rkhunter binutils dovecot-imapd dovecot-pop3d dovecot-
+mysql dovecot-sieve dovecot-lmtpd unzip bzip2 arj nomarch lzop cabextract p7zip
+p7zip-full lrzip libnet-ldap-perl libauthen-sasl-perl clamav-docs daemon libio-
+string-perl libio-socket-ssl-perl libnet-ident-perl zip libnet-dns-perl libdbd-
+mysql-perl postgrey apache2 apache2-doc apache2-utils libapache2-mod-php php
+php-common php-gd php-mysql php-imap php-cli php-cgi libapache2-mod-fcgid
+apache2-suexec-pristine php-pear mcrypt imagemagick libruby libapache2-mod-
+python php-curl php-intl php-pspell php-sqlite3 php-tidy php-xmlrpc memcached
+php-memcache php-imagick php-zip php-mbstring libapache2-mod-passenger php-soap
+php-fpm php-apcu bind9 dnsutils haveged webalizer awstats geoip-database
+libclass-dbi-mysql-perl libtimedate-perl fail2ban ufw anacron goaccess php-
+gettext php-recode php-opcache php-xsl xz-utils lzip libapache2-
+mod-perl2 libapache2-reload-perl libbsd-resource-perl libdevel-symdump-perl
+php7.3-xsl
+
+
+apt install git
+git clone https://github.com/CISOfy/lynis
+apt remove --purge docker docker-engine docker.io containerd runc
+apt update
+apt install apt-transport-https ca-certificates curl gnupg-agent software-
+properties-common
+curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add -
+lsb_release -cs
+apt install docker-ce docker-ce-cli containerd.io
+docker run hello-world
+
+
+
+Contents hide
+1 Shinobi
+2 Zoneminder
+3 Viseron
+4 Moonfire NVR
+5 Frigate
+6 motionEyeOS

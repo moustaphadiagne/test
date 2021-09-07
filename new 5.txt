@@ -1,0 +1,61 @@
+1 faire tous les efforts pour la resusssite de la mission
+2 Faire comme si c est sas propre boite.
+3 tout ce qui peut faire pour se entir a l aise.
+prendre iniative.
+5 bien communiquer.
+6.creation de la valeur en entreprise
+7 potentiel pour etre responsable
+8 environnement
+
+le 26/08/2021
+pzem ti superieur a 100 A
+est ce que on a alternative?
+oubien transpondeur existe?
+commandes pour ucb ttl rs485 deja fait.
+curl -s https://gitlab.com/Shinobi-Systems/Shinobi/raw/dev/INSTALL/opencv-cuda.sh | sudo sh
+
+ticketing open source a installer 15 septembre 
+action system gpio on off  et aussi capture camera si gpio change d etat  attaquer api shinobi
+procedure shinobi tensorflow sur git
+grafana personaliser interface graphique
+detecteur de vibration detecteur de fumee
+
+
+ 1  nano /etc/hostname
+    2  ip a
+    3  apt-get update
+    4  apt-get upgrade
+    5  node -v
+    6  npm -v
+    7  wget https://nodejs.org/dist/v14.17.6/node-v14.17.6-linux-armv7l.tar.xz
+    8  tar -xvf node-v14.17.6-linux-armv7l.tar.xz
+    9  ls
+   10  cd node-v14.17.6-linux-armv7l
+   11  ls
+   12  cp -R * /usr/local/
+   13  node -v
+   14  npm -v
+   15  apt install git -y
+   16  cd
+   17  ls
+   18  cd ~
+   19  ls
+   20  git clone https://gitlab.com/Shinobi-Systems/Shinobi.git Shinobi
+   21  cd Shinobi
+   22  chmod +x INSTALL/ubuntu.sh && INSTALL/ubuntu.sh
+   23  pm2 start cron.js
+   24  pm2 start camera.js
+   25  pm2 start cron.js
+   26  pm2 list
+   27  pm2 startup
+   28  pm2 save
+   group key IkevkXwktQ
+   
+   http://192.168.1.20:8080/qQgVNRwDSimzB4RTWyijshHZ2ed9es/monitor/IkevkXwktQ/at7ZB5N4r9
+   http://192.168.1.20:8080/qTiQRq8Au1KzXpW2PGAbNA1uww1NDv/jpeg/IkevkXwktQ/at7ZB5N4r9/s.jpg
+   curl -o test.jpg http://192.168.1.20:8080/qTiQRq8Au1KzXpW2PGAbNA1uww1NDv/jpeg/IkevkXwktQ/at7ZB5N4r9/s.jpg
+
+http://192.168.1.20:8080/er5EeZ2JkoUQfeUPDAo1N2dzUXPemA/videos/IkevkXwktQ
+http://192.168.1.20:8080/er5EeZ2JkoUQfeUPDAo1N2dzUXPemA/videos/IkevkXwktQ/at7ZB5N4r9/2021-09-01T18-58-28.mp4
+
+http://shinobi:8080/er5EeZ2JkoUQfeUPDAo1N2dzUXPemA/probe/IkevkXwktQ?flags=default&url=rtsp://admin:admin@192.168.1.100:554
